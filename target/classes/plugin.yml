@@ -1,0 +1,79 @@
+name: SeaCore
+author: NediaChicha
+version: 1.0
+api-version: 1.13
+main: fr.seaskycore.Main
+softdepend: [WorldGuard]
+
+commands:
+  furnace:
+  furnaceall:
+  cluescrollcomun:
+  cluescrollrare:
+  cluescrollepique:
+  cluescrolllegendaire:
+  poubelle:
+  trash:
+  majid:
+  vision:
+  casquefarmeur:
+  plastronfarmeur:
+  pantalonfarmeur:
+  bottefarmeur:
+  epeefarmeur:
+  piochefarmeur:
+  pellefarmeur:
+  hachefarmeur:
+  epeeaquatique:
+  hacheaquatique:
+  piochequatique:
+  casqueaquatique:
+  plastronaquatique:
+  pantalonaquatique:
+  botteaquatique:
+  pelleaquatique:
+  pechequatique:
+  epeepirate:
+  casqueapirate:
+  plastronpirate:
+  pantalonpirate:
+  botteapirate:
+  hachepirate:
+  pellepirate:
+  piochepirate:
+  casquelunaire:
+  plastronlunaire:
+  pantalonlunaire:
+  bottelunaire:
+  Glaivelunaire:
+  hachelunaire:
+  pellelunaire:
+  piochelunaire:
+  vote:
+  grimoire:
+  whois:
+  classement:
+  feed:
+  invsee:
+  enderchest:
+  ec:
+  xptest:
+  sudo:
+    permission: seasky.mod.sudo
+    description: seasky.mod.sudo
+  gmc:
+    permission: seasky.gamemode.creative
+    description: seasky.gamemode.creative
+  gms:
+    permission: seasky.gamemode.survival
+    description: seasky.gamemode.survival
+  gma:
+    permission: seasky.gamemode.adventure
+    description: seasky.gamemode.adventure
+  gmsp:
+    permission: seasky.gamemode.spectator
+    description: seasky.gamemode.specator
+  gamemode:
+    permission: seasky.gamemode.*
+    description: seasky.gamemode.*
+    aliases: [ gm ]
